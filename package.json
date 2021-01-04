@@ -2,11 +2,14 @@
   "name": "babel7-plugin-console-source",
   "version": "2.0.6",
   "main": "index.js",
-  "repository": "https://github.com/peteringram0/babel-console-source",
+  "repository": "https://github.com/kesava/babel7-plugin-console-source",
   "author": "Peter Ingram <peter.ingram0@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "webpack --config ./tests/webpack.config.js"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
